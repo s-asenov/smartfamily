@@ -1,0 +1,2 @@
+AddHandler x-httpd-php72 .php
+

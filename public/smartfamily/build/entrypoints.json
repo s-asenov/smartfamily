@@ -1,0 +1,49 @@
+{
+  "entrypoints": {
+    "index": {
+      "js": [
+        "/smartfamily/build/runtime.js",
+        "/smartfamily/build/vendors~forms~home~index.js",
+        "/smartfamily/build/vendors~index.js",
+        "/smartfamily/build/forms~home~index.js",
+        "/smartfamily/build/index.js"
+      ],
+      "css": [
+        "/smartfamily/build/vendors~forms~home~index.css",
+        "/smartfamily/build/vendors~index.css",
+        "/smartfamily/build/forms~home~index.css",
+        "/smartfamily/build/index.css"
+      ]
+    },
+    "forms": {
+      "js": [
+        "/smartfamily/build/runtime.js",
+        "/smartfamily/build/vendors~forms~home~index.js",
+        "/smartfamily/build/vendors~forms~home.js",
+        "/smartfamily/build/vendors~forms.js",
+        "/smartfamily/build/forms~home~index.js",
+        "/smartfamily/build/forms.js"
+      ],
+      "css": [
+        "/smartfamily/build/vendors~forms~home~index.css",
+        "/smartfamily/build/forms~home~index.css",
+        "/smartfamily/build/forms.css"
+      ]
+    },
+    "home": {
+      "js": [
+        "/smartfamily/build/runtime.js",
+        "/smartfamily/build/vendors~forms~home~index.js",
+        "/smartfamily/build/vendors~forms~home.js",
+        "/smartfamily/build/vendors~home.js",
+        "/smartfamily/build/forms~home~index.js",
+        "/smartfamily/build/home.js"
+      ],
+      "css": [
+        "/smartfamily/build/vendors~forms~home~index.css",
+        "/smartfamily/build/forms~home~index.css",
+        "/smartfamily/build/home.css"
+      ]
+    }
+  }
+}

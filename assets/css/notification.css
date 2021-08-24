@@ -1,0 +1,70 @@
+.notification {
+    cursor: pointer;
+    z-index: 1;
+    position: fixed;
+    bottom: 30px;
+    background-color: #ffffff;
+    left: 40px;
+    width: 280px;
+    height: 80px;
+    box-shadow: 6px 6px 6px 0px rgba(122,122,122,0.8);
+    padding: 10px;
+    /* border-radius: 10px;
+    border: 2px solid #2837ff; */
+}
+
+/* .notification :hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+} */
+
+.notification .clamp-lines p {
+    font-size: 14px;
+    margin-top: 4px;
+    line-height: 16px;
+}
+
+.notification-title {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.dropdown-notification-menu {
+    max-height: 600px;
+    width: 100%;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.dropdown-notification-menu, .dropdown-menu {
+    -ms-overflow-style: none;
+}
+
+.dropdown-notification-menu ::-webkit-scrollbar, .dropdown-menu ::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-notification-item {
+    font-weight: 700;
+    padding: 10px;
+}
+
+.dropdown-notification-item .info {
+    margin-bottom: 4px;
+}
+
+.dropdown-notification-item small {
+    display: inline;
+}
+
+.dropdown-notification-item .date {
+    float: right;
+}
+
+.dropdown-notification-item .from {
+    float: left;
+}
+
+.dropdown-notification-menu hr {
+    width: 100%;
+    margin: 0px;
+}
